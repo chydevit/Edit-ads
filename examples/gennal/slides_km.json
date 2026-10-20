@@ -1,0 +1,422 @@
+{
+ "brand": {
+  "name": "GenNal",
+  "logo": "logo.png"
+ },
+ "shot": {
+  "w": 2880,
+  "h": 1620
+ },
+ "slides": [
+  {
+   "kind": "hero",
+   "kicker": "បញ្ហា",
+   "head": "Terminal ច្រើនពេក\nមែនទេ?",
+   "accent": "មែនទេ?",
+   "sub": "Claude Code, Codex, Gemini — បង្អួចបី ហើយ copy និង paste ទៅមកឥតឈប់។",
+   "img": {
+    "src": "grid"
+   },
+   "dur": 138
+  },
+  {
+   "kind": "stats",
+   "head": "Agents ទាំងអស់ ក្នុងកម្មវិធីតែមួយ។",
+   "cards": [
+    {
+     "big": "7+",
+     "small": "CLI agents\nដែលគាំទ្រ"
+    },
+    {
+     "big": "0",
+     "small": "API key\nដែលត្រូវការ"
+    },
+    {
+     "big": "100%",
+     "small": "កូដនៅលើ\nម៉ាស៊ីនរបស់អ្នក"
+    }
+   ],
+   "dur": 138
+  },
+  {
+   "kind": "dark",
+   "head": "Agents ទាំងអស់\nនៅក្នុង\nកម្មវិធីតែមួយ។",
+   "accent": "កម្មវិធីតែមួយ។",
+   "sub": "កម្មវិធី desktop សម្រាប់ Claude Code, Codex, Gemini និង Cursor។",
+   "img": {
+    "src": "diff"
+   },
+   "dur": 132
+  },
+  {
+   "kind": "two",
+   "head": "ផ្ទាំងពីរ សម្រាប់ការងារពីរ។",
+   "imgs": [
+    {
+     "src": "grid",
+     "cap": "ផ្ទាំង Agents\nបញ្ជា agents ច្រើនក្បែរគ្នា"
+    },
+    {
+     "src": "editor",
+     "cap": "ផ្ទាំង Editor\nសរសេរកូដដោយមាន AI នៅក្បែរ"
+    }
+   ],
+   "dur": 138
+  },
+  {
+   "kind": "steps",
+   "head": "របៀបដំណើរការ",
+   "imgs": [
+    {
+     "src": "welcome",
+     "crop": [
+      640,
+      500,
+      1520,
+      950
+     ],
+     "cap": "បើក thread"
+    },
+    {
+     "src": "live",
+     "crop": [
+      460,
+      300,
+      1720,
+      1075
+     ],
+     "cap": "បើក agents"
+    },
+    {
+     "src": "commit",
+     "crop": [
+      1640,
+      90,
+      1140,
+      712
+     ],
+     "cap": "Refine & ship"
+    },
+    {
+     "src": "editor",
+     "cap": "ប្តូរទៅ editor",
+     "crop": [
+      0,
+      0,
+      2592,
+      1620
+     ]
+    }
+   ],
+   "dur": 138
+  },
+  {
+   "kind": "dark",
+   "kicker": "GENNAL AGENTS",
+   "head": "បង្កើតឡើង\nសម្រាប់\nAI agents។",
+   "accent": "AI agents។",
+   "sub": "ដំណើរការ agents ច្រើនក្បែរគ្នា ហើយបញ្ជាពីកន្លែងតែមួយ។",
+   "img": {
+    "src": "grid"
+   },
+   "dur": 132
+  },
+  {
+   "kind": "hero",
+   "kicker": "ផ្ទាល់",
+   "head": "មើលជំហាននីមួយៗ\nផ្ទាល់។",
+   "accent": "ផ្ទាល់។",
+   "sub": "Timer, ការគិត និង command ដែលកំពុងដំណើរការ — ឃើញទាំងអស់។",
+   "img": {
+    "src": "live",
+    "crop": [
+     460,
+     300,
+     1720,
+     1100
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "hero",
+   "kicker": "ជួររង់ចាំ",
+   "head": "បន្តសួរ\nខណៈវាធ្វើការ។",
+   "accent": "ខណៈវាធ្វើការ។",
+   "sub": "សារថ្មីរង់ចាំក្នុងជួរ ហើយផ្ញើចេញពេលចម្លើយបញ្ចប់។",
+   "img": {
+    "src": "queue",
+    "crop": [
+     460,
+     360,
+     1720,
+     1100
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "hero",
+   "kicker": "Diff",
+   "head": "ឃើញការផ្លាស់ប្តូរ\nគ្រប់ចម្លើយ។",
+   "accent": "គ្រប់ចម្លើយ។",
+   "sub": "Unified ឬ split ហើយត្រឡប់មើលវេនមុនៗបាន។",
+   "img": {
+    "src": "diff",
+    "crop": [
+     1230,
+     350,
+     940,
+     1180
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "hero",
+   "kicker": "រូបភាព",
+   "head": "Paste រូបភាព\nក្នុងសារ។",
+   "accent": "ក្នុងសារ។",
+   "sub": "Screenshot ធ្លាក់ត្រង់ cursor ហើយម៉ូដែលអានវានៅកន្លែងដដែល។",
+   "img": {
+    "src": "paste",
+    "crop": [
+     640,
+     560,
+     1520,
+     600
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "hero",
+   "kicker": "Sessions",
+   "head": "បន្ត session\nណាមួយ។",
+   "accent": "ណាមួយ។",
+   "sub": "Chat, terminal និង apps ផ្សេងៗ — ម៉ូដែលចាំអ្វីៗទាំងអស់។",
+   "img": {
+    "src": "sessions",
+    "crop": [
+     440,
+     100,
+     2440,
+     1000
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "dark",
+   "kicker": "GENNAL EDITOR",
+   "head": "សរសេរកូដ\nដោយមាន AI\nនៅក្បែរ។",
+   "accent": "នៅក្បែរ។",
+   "sub": "Explorer, tabs, terminal និង agent chat dock ក្នុងផ្ទាំងតែមួយ។",
+   "img": {
+    "src": "editor"
+   },
+   "dur": 132
+  },
+  {
+   "kind": "hero",
+   "kicker": "ស្វែងរក",
+   "head": "Search និង replace\nទូទាំងគម្រោង។",
+   "accent": "ទូទាំងគម្រោង។",
+   "sub": "Match case, whole word, regex និង filter ឯកសារ។",
+   "img": {
+    "src": "search",
+    "crop": [
+     0,
+     90,
+     1300,
+     1150
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "hero",
+   "kicker": "Terminal",
+   "head": "Terminal\nនៅក្រោម editor។",
+   "accent": "នៅក្រោម editor។",
+   "sub": "ចុច Ctrl + ` ហើយ Run បង្ហាញ output ផ្ទាល់។",
+   "img": {
+    "src": "terminal",
+    "crop": [
+     0,
+     820,
+     2880,
+     800
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "hero",
+   "kicker": "Database",
+   "head": "សួរ database\nពិតៗ។",
+   "accent": "ពិតៗ។",
+   "sub": "SQLite, PostgreSQL, MySQL — មើល tables និងរត់ SQL។",
+   "img": {
+    "src": "db",
+    "crop": [
+     560,
+     90,
+     2320,
+     1000
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "hero",
+   "kicker": "Extensions",
+   "head": "ដំឡើងតែអ្វី\nដែលត្រូវការ។",
+   "accent": "ដែលត្រូវការ។",
+   "sub": "Extensions ផ្ទាល់របស់ GenNal ដំណើរការ offline។",
+   "img": {
+    "src": "ext",
+    "crop": [
+     0,
+     90,
+     1650,
+     1300
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "dark",
+   "kicker": "SHIP",
+   "head": "ពីគំនិតរដុប\nដល់ push។",
+   "accent": "ដល់ push។",
+   "sub": "AI prompt generator បំប្លែងគំនិតរដុប ទៅជា prompt ល្អ។",
+   "img": {
+    "src": "prompt",
+    "crop": [
+     440,
+     150,
+     1760,
+     1250
+    ]
+   },
+   "dur": 132
+  },
+  {
+   "kind": "hero",
+   "kicker": "Commit",
+   "head": "AI សរសេរ\ncommit message។",
+   "accent": "commit message។",
+   "sub": "ពិនិត្យ រួច Commit & push ក្នុងចុចតែម្តង។",
+   "img": {
+    "src": "commit",
+    "crop": [
+     1740,
+     90,
+     720,
+     1250
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "hero",
+   "kicker": "Board",
+   "head": "រៀបចំការងារ\nលើ board។",
+   "accent": "លើ board។",
+   "sub": "Kanban, GitHub tasks និង automations តាមកាលវិភាគ។",
+   "img": {
+    "src": "board",
+    "crop": [
+     560,
+     90,
+     2320,
+     900
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "hero",
+   "kicker": "Usage",
+   "head": "ដឹងថ្លៃ និង limit\nជានិច្ច។",
+   "accent": "ជានិច្ច។",
+   "sub": "Cost, tokens និង quota ពី Claude Code និង Codex។",
+   "img": {
+    "src": "usage"
+   },
+   "dur": 138
+  },
+  {
+   "kind": "fan",
+   "kicker": "Themes",
+   "head": "Theme ប្រាំពីរ\nភ្លឺ និងងងឹត។",
+   "accent": "ភ្លឺ និងងងឹត។",
+   "sub": "GenNal, T3 Code, Grove, Ocean, Ember, Iris…",
+   "imgs": [
+    {
+     "src": "theme_grove"
+    },
+    {
+     "src": "theme_ocean"
+    },
+    {
+     "src": "theme_iris"
+    }
+   ],
+   "dur": 138
+  },
+  {
+   "kind": "hero",
+   "kicker": "GenNal Remote",
+   "head": "កុំព្យូទ័ររបស់អ្នក\nនៅក្នុងហោប៉ៅ។",
+   "accent": "នៅក្នុងហោប៉ៅ។",
+   "sub": "ភ្ជាប់ទូរស័ព្ទ តាម Wi-Fi តែមួយ ឬគណនី Google។",
+   "img": {
+    "src": "remote",
+    "crop": [
+     1040,
+     60,
+     790,
+     1300
+    ]
+   },
+   "dur": 138
+  },
+  {
+   "kind": "stats",
+   "head": "ឥតគិតថ្លៃ សម្រាប់គ្រប់ឧបករណ៍។",
+   "cards": [
+    {
+     "big": "Windows",
+     "small": "10 / 11 · x64"
+    },
+    {
+     "big": "macOS",
+     "small": "Apple Silicon · Intel"
+    },
+    {
+     "big": "Linux",
+     "small": "AppImage · .deb"
+    }
+   ],
+   "dur": 138
+  },
+  {
+   "kind": "end",
+   "head": "ដំណើរការជាមួយ",
+   "tiles": [
+    "Claude Code",
+    "Codex",
+    "Gemini CLI",
+    "Cursor",
+    "Antigravity",
+    "OpenCode",
+    "Kiro",
+    "CLI ណាមួយ"
+   ],
+   "footer": "gen-nal.onrender.com",
+   "dur": 200
+  }
+ ]
+}
