@@ -1,0 +1,205 @@
+{
+ "beats": [
+  {
+   "id": "a01",
+   "shots": [
+    "app-launch-panes"
+   ],
+   "head": {
+    "en": "Too many terminals?",
+    "km": "Terminal ច្រើនពេកមែនទេ?"
+   },
+   "en": "You've got Claude Code. You've got Codex. And Gemini. Three terminals, three windows, and you're copy-pasting between all of them.",
+   "km": "អ្នកមាន Claude Code។ អ្នកមាន Codex។ ហើយមាន Gemini ទៀត។ Terminal បី ផ្ទាំងបី ហើយអ្នកត្រូវ copy និង paste ពីមួយទៅមួយ។"
+  },
+  {
+   "id": "a02",
+   "shots": [
+    "BRAND"
+   ],
+   "head": {
+    "en": "Meet GenNal",
+    "km": "ស្គាល់ GenNal"
+   },
+   "en": "Meet GenNal.",
+   "km": "សូមស្គាល់ GenNal។"
+  },
+  {
+   "id": "a03",
+   "shots": [
+    "app-first-launch"
+   ],
+   "head": {
+    "en": "No API keys · 100% local",
+    "km": "គ្មាន API key · នៅលើម៉ាស៊ីនអ្នក"
+   },
+   "en": "One desktop app for every CLI agent you already have. No API keys, and your code never leaves your machine.",
+   "km": "កម្មវិធី desktop តែមួយ សម្រាប់ CLI agents ទាំងអស់ដែលអ្នកមានរួចហើយ។ មិនត្រូវការ API key ហើយកូដរបស់អ្នក មិនចាកចេញពីម៉ាស៊ីនរបស់អ្នកឡើយ។"
+  },
+  {
+   "id": "a04",
+   "shots": [
+    "agents-grid"
+   ],
+   "head": {
+    "en": "All your agents, side by side",
+    "km": "Agents ទាំងអស់ នៅក្បែរគ្នា"
+   },
+   "en": "Run them side by side, in one live grid.",
+   "km": "ដំណើរការពួកវាក្បែរៗគ្នា ក្នុង grid ផ្ទាល់តែមួយ។"
+  },
+  {
+   "id": "a04b",
+   "shots": [
+    "app-add-model"
+   ],
+   "head": {
+    "en": "Bring any CLI",
+    "km": "បន្ថែម CLI ណាមួយក៏បាន"
+   },
+   "en": "Using another tool? Add any command-line agent as a model in seconds.",
+   "km": "ប្រើ tool ផ្សេងទៀត? បន្ថែម command-line agent ណាមួយជាម៉ូដែល ក្នុងរយៈពេលប៉ុន្មានវិនាទី។"
+  },
+  {
+   "id": "a05",
+   "shots": [
+    "agents-send",
+    "agents-live"
+   ],
+   "head": {
+    "en": "Watch every step live",
+    "km": "មើលជំហាននីមួយៗផ្ទាល់"
+   },
+   "en": "Give it a task, and watch every step as it happens.",
+   "km": "ផ្តល់ការងារមួយ ហើយមើលជំហាននីមួយៗ ពេលវាកំពុងកើតឡើង។"
+  },
+  {
+   "id": "a06",
+   "shots": [
+    "agents-queue"
+   ],
+   "head": {
+    "en": "Keep asking while it works",
+    "km": "បន្តសួរ ខណៈវាកំពុងធ្វើការ"
+   },
+   "en": "Another idea? Just keep typing. It waits in line.",
+   "km": "មានគំនិតថ្មីទៀត? គ្រាន់តែបន្តវាយ។ វានឹងរង់ចាំតាមលំដាប់។"
+  },
+  {
+   "id": "a07",
+   "shots": [
+    "agents-diff"
+   ],
+   "head": {
+    "en": "A diff for every reply",
+    "km": "កាត diff គ្រប់ចម្លើយ"
+   },
+   "en": "Every reply ends with a clean diff of exactly what changed.",
+   "km": "ចម្លើយនីមួយៗ បញ្ចប់ដោយ diff ច្បាស់លាស់ នៃអ្វីដែលបានផ្លាស់ប្តូរ។"
+  },
+  {
+   "id": "a08",
+   "shots": [
+    "agents-paste-image"
+   ],
+   "head": {
+    "en": "Paste screenshots inline",
+    "km": "Paste រូបភាពក្នុងសារ"
+   },
+   "en": "Paste a screenshot right into your message.",
+   "km": "Paste រូបថតអេក្រង់ ចូលក្នុងសាររបស់អ្នកភ្លាមៗ។"
+  },
+  {
+   "id": "a09",
+   "shots": [
+    "sessions-continue",
+    "sessions-restart"
+   ],
+   "head": {
+    "en": "Pick up where you left off",
+    "km": "បន្តពីកន្លែងដែលបានឈប់"
+   },
+   "en": "Closed the app mid-task? Your sessions, drafts and replies are right where you left them.",
+   "km": "បិទកម្មវិធីពាក់កណ្ដាលការងារ? Sessions, drafts និងចម្លើយរបស់អ្នក នៅតែនៅដដែល។"
+  },
+  {
+   "id": "a10",
+   "shots": [
+    "editor-search",
+    "editor-terminal",
+    "editor-preview",
+    "editor-db"
+   ],
+   "head": {
+    "en": "A full editor, built in",
+    "km": "Editor ពេញលេញ នៅក្នុងកម្មវិធី"
+   },
+   "en": "Want to code yourself? Flip to the editor. Search the whole project, run a terminal, preview your app and query your database.",
+   "km": "ចង់សរសេរកូដខ្លួនឯង? ប្តូរទៅ editor។ ស្វែងរកទូទាំងគម្រោង ដំណើរការ terminal មើល preview កម្មវិធី និងសួរ database របស់អ្នក។"
+  },
+  {
+   "id": "a10b",
+   "shots": [
+    "editor-ext",
+    "ship-board",
+    "ship-automation"
+   ],
+   "head": {
+    "en": "Extensions · Board · Automations",
+    "km": "Extensions · Board · Automations"
+   },
+   "en": "Install only the extensions you need, plan your work on a board, and schedule agents to run on their own.",
+   "km": "ដំឡើងតែ extensions ដែលអ្នកត្រូវការ រៀបចំការងារលើ board ហើយកំណត់ពេលឱ្យ agents ដំណើរការដោយខ្លួនឯង។"
+  },
+  {
+   "id": "a11",
+   "shots": [
+    "ship-prompt"
+   ],
+   "head": {
+    "en": "Rough idea → perfect prompt",
+    "km": "គំនិតរដុប → prompt ល្អ"
+   },
+   "en": "Turn a rough idea into a perfect prompt.",
+   "km": "បំប្លែងគំនិតរដុប ទៅជា prompt ដ៏ល្អ។"
+  },
+  {
+   "id": "a12",
+   "shots": [
+    "ship-commit"
+   ],
+   "head": {
+    "en": "AI commit message & push",
+    "km": "AI សរសេរ commit និង push"
+   },
+   "en": "Then let AI write the commit message, and push.",
+   "km": "បន្ទាប់មក ឱ្យ AI សរសេរ commit message ហើយ push។"
+  },
+  {
+   "id": "a13",
+   "shots": [
+    "usage-page",
+    "theme-cycle",
+    "remote-dialog"
+   ],
+   "head": {
+    "en": "Usage · Themes · Remote",
+    "km": "Usage · Themes · Remote"
+   },
+   "en": "Track your usage and limits, pick from seven themes, and control it all from your phone.",
+   "km": "តាមដានការប្រើប្រាស់ និង limit ជ្រើសពី theme ប្រាំពីរ ហើយបញ្ជាវាទាំងអស់ពីទូរស័ព្ទរបស់អ្នក។"
+  },
+  {
+   "id": "a14",
+   "shots": [
+    "CTA"
+   ],
+   "head": {
+    "en": "Every agent. One app.",
+    "km": "Agents ទាំងអស់។ កម្មវិធីតែមួយ។"
+   },
+   "en": "GenNal. Every agent, one app. Free for Windows, Mac and Linux. Download it now at gen-nal dot onrender dot com.",
+   "km": "GenNal។ Agents ទាំងអស់ ក្នុងកម្មវិធីតែមួយ។ ឥតគិតថ្លៃ សម្រាប់ Windows, Mac និង Linux។ ទាញយកឥឡូវនេះ នៅ gen-nal.onrender.com។"
+  }
+ ]
+}

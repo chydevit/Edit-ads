@@ -1,0 +1,12 @@
+{
+ "b1201": {"q": "Do I need API keys to use GenNal?", "a": "No. GenNal runs the CLIs you've already signed in to."},
+ "b1202": {"q": "Agents Window vs Editor Window?", "a": "Two views of one app. Switching never restarts anything."},
+ "b1203": {"q": "How do extensions work?", "a": "First-party and offline. Installing one just decides whether it shows."},
+ "b1204": {"q": "Can I search and replace across the whole project?", "a": "Yes — match case, whole word, regex, include and exclude globs."},
+ "b1205": {"q": "How does the prompt generator work?", "a": "Rough idea in, structured prompt out — from the sparkle or ⌘K."},
+ "b1206": {"q": "Can GenNal write commit messages and push for me?", "a": "Yes. Generate commit message, then Commit & push in Environment."},
+ "b1207": {"q": "How does usage tracking work?", "a": "It reads your local Claude Code and Codex files."},
+ "b1208": {"q": "Does GenNal upload my code to its own servers?", "a": "No. Prompts go only to the provider CLI you choose."},
+ "b1209": {"q": "Can I add a model that is not listed?", "a": "Yes — Add model, or an entry in models.json."},
+ "b1210": {"q": "Which platforms and devices are supported?", "a": "Windows 10/11, macOS 11+, 64-bit Linux — and your phone with GenNal Remote."}
+}

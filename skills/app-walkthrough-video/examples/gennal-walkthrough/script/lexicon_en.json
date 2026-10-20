@@ -1,0 +1,84 @@
+{
+ "rules": [
+  [
+   "\\bdmg\\b",
+   "D M G"
+  ],
+  [
+   "\\barm64\\b",
+   "A R M sixty-four"
+  ],
+  [
+   "\\bx64\\b",
+   "x sixty-four"
+  ],
+  [
+   "\\b1\\.5\\.6\\b",
+   "one point five point six"
+  ],
+  [
+   "ai-prompt-generator",
+   "A I prompt generator"
+  ],
+  [
+   "\\bSQL\\b",
+   "S Q L"
+  ],
+  [
+   "\\bCLIs\\b",
+   "C L I's"
+  ],
+  [
+   "\\bCLI\\b",
+   "C L I"
+  ],
+  [
+   "\\bAPI\\b",
+   "A P I"
+  ],
+  [
+   "\\bIDE\\b",
+   "I D E"
+  ],
+  [
+   "\\bSQLite\\b",
+   "S Q Lite"
+  ],
+  [
+   "\\bMySQL\\b",
+   "My S Q L"
+  ],
+  [
+   "\\bPostgreSQL\\b",
+   "Postgres Q L"
+  ],
+  [
+   "\\bGenNal\\b",
+   "Gen-Nal"
+  ],
+  [
+   "\\bregex\\b",
+   "reg-ex"
+  ],
+  [
+   "\\bAppImage\\b",
+   "App Image"
+  ],
+  [
+   "\\bOS\\b",
+   "O S"
+  ],
+  [
+   "localhost",
+   "local host"
+  ],
+  [
+   "\\b8 gigabytes\\b",
+   "eight gigabytes"
+  ],
+  [
+   "\\b16\\b",
+   "sixteen"
+  ]
+ ]
+}

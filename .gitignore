@@ -6,3 +6,7 @@ renders/
 *-storyboard.jpg
 .DS_Store
 *-workspace/
+.venv/
+.venv-vox/
+__pycache__/
+*.pyc

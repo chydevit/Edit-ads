@@ -1,0 +1,577 @@
+{
+ "title": "GenNal: every feature, start to finish",
+ "version": "1.5.9",
+ "chapters": [
+  {
+   "id": "c01",
+   "title": "Intro"
+  },
+  {
+   "id": "c02",
+   "title": "The website tour"
+  },
+  {
+   "id": "c03",
+   "title": "Download & install"
+  },
+  {
+   "id": "c04",
+   "title": "First launch & connecting models"
+  },
+  {
+   "id": "c05",
+   "title": "Agents Window"
+  },
+  {
+   "id": "c06",
+   "title": "Sessions"
+  },
+  {
+   "id": "c07",
+   "title": "Editor Window"
+  },
+  {
+   "id": "c08",
+   "title": "Ship your work"
+  },
+  {
+   "id": "c09",
+   "title": "Usage & limits"
+  },
+  {
+   "id": "c10",
+   "title": "Appearance"
+  },
+  {
+   "id": "c11",
+   "title": "GenNal Remote"
+  },
+  {
+   "id": "c12",
+   "title": "FAQ recap & outro"
+  }
+ ],
+ "beats": [
+  {
+   "id": "b0101",
+   "ch": "c01",
+   "label": "GenNal",
+   "shot": "intro-montage",
+   "vo": "This is GenNal: one desktop app for the CLI agents you already have. Claude Code, Codex, Gemini and Cursor, with threads, terminals and code in one flow."
+  },
+  {
+   "id": "b0102",
+   "ch": "c01",
+   "label": "Gen = Generation · Nal = Terminal",
+   "shot": "intro-montage",
+   "vo": "In the next few minutes you'll install it, connect your agents and use every feature, from the first prompt to commit and push. Each chapter stands on its own, so jump to whatever you need."
+  },
+  {
+   "id": "b0201",
+   "ch": "c02",
+   "label": "gen-nal.onrender.com",
+   "shot": "site-tour:hero",
+   "vo": "Everything starts at gen-nal dot onrender dot com. The hero sums it up: two windows in one app, and zero extra API keys."
+  },
+  {
+   "id": "b0202",
+   "ch": "c02",
+   "label": "Download",
+   "shot": "site-tour:download",
+   "vo": "Right below it are the installers for Windows, macOS and Linux, and GenNal Remote for your phone."
+  },
+  {
+   "id": "b0203",
+   "ch": "c02",
+   "label": "Devices",
+   "shot": "site-tour:devices",
+   "vo": "The device table lists every file and what it runs on. We'll come back to it in the install chapter."
+  },
+  {
+   "id": "b0204",
+   "ch": "c02",
+   "label": "What's new",
+   "shot": "site-tour:whats-new",
+   "vo": "What's new describes the current release, with a card for each new feature."
+  },
+  {
+   "id": "b0205",
+   "ch": "c02",
+   "label": "Agents Window · Editor Window",
+   "shot": "site-tour:windows",
+   "vo": "Two windows explains the core idea: the Agents Window on one side, the Editor Window on the other, and switching never restarts anything."
+  },
+  {
+   "id": "b0206",
+   "ch": "c02",
+   "label": "Threads, terminals, and code in one flow",
+   "shot": "site-tour:experience",
+   "vo": "Then the four-step flow: open a thread, launch agents, refine and ship, and switch to the editor."
+  },
+  {
+   "id": "b0207",
+   "ch": "c02",
+   "label": "Features",
+   "shot": "site-tour:features",
+   "vo": "Features lists everything that's in the app, and the interface tour shows the real layout."
+  },
+  {
+   "id": "b0208",
+   "ch": "c02",
+   "label": "Supported models",
+   "shot": "site-tour:models",
+   "vo": "Supported models: Codex, Claude, Gemini, Cursor, or any command-line tool you add yourself."
+  },
+  {
+   "id": "b0209",
+   "ch": "c02",
+   "label": "System requirements · FAQ",
+   "shot": "site-tour:faq",
+   "vo": "At the bottom are the system requirements and the FAQ. We'll answer every question by the end of this video."
+  },
+  {
+   "id": "b0210",
+   "ch": "c02",
+   "label": "EN · ខ្មែរ · 中文",
+   "shot": "site-lang",
+   "vo": "The whole site is in English, Khmer and Chinese. Pick a language at the top right."
+  },
+  {
+   "id": "b0211",
+   "ch": "c02",
+   "label": "Mobile menu",
+   "shot": "site-mobile",
+   "vo": "On a phone, the menu button opens the same sections and the download link."
+  },
+  {
+   "id": "b0301",
+   "ch": "c03",
+   "label": "All devices — pick your download",
+   "shot": "site-download",
+   "vo": "To install, open All devices, pick your download. Windows gets the Setup installer. Macs get a disk image, arm64 for Apple Silicon and x64 for Intel. Linux gets a portable AppImage or a Debian package."
+  },
+  {
+   "id": "b0302",
+   "ch": "c03",
+   "label": "Install on macOS",
+   "shot": "install-mac",
+   "vo": "On a Mac, open the dmg and drag GenNal into Applications. The installers are unsigned, so the first time, right-click GenNal and choose Open."
+  },
+  {
+   "id": "b0303",
+   "ch": "c03",
+   "label": "Install on Windows",
+   "shot": "install-win",
+   "slot": true,
+   "vo": "On Windows, run the Setup installer. If SmartScreen warns you, choose More info, then Run anyway, and finish the setup."
+  },
+  {
+   "id": "b0304",
+   "ch": "c03",
+   "label": "System requirements",
+   "shot": "site-requirements",
+   "vo": "You need Windows 10 or 11, macOS 11 or later, or a 64-bit Linux desktop, with 8 gigabytes of RAM; 16 is recommended. After this first install, updates are automatic: GenNal downloads new versions in the app."
+  },
+  {
+   "id": "b0401",
+   "ch": "c04",
+   "label": "Works with the CLI tools already on your machine",
+   "shot": "app-first-launch",
+   "vo": "On first launch, GenNal opens straight into the Agents Window. It works with the CLI tools already on your machine, so there are no API keys to paste. Sign in to each CLI once, the way you normally would."
+  },
+  {
+   "id": "b0402",
+   "ch": "c04",
+   "label": "Does GenNal upload my code?",
+   "shot": "app-first-launch",
+   "vo": "Does GenNal upload your code? No. It launches the CLI locally, and your prompts and files go only to the provider CLI you choose, never to a GenNal server."
+  },
+  {
+   "id": "b0403",
+   "ch": "c04",
+   "label": "Thread workspace",
+   "shot": "app-open-project",
+   "vo": "Start by opening a project folder. It becomes a workspace in the sidebar, and every thread you start keeps its own sessions and files."
+  },
+  {
+   "id": "b0404",
+   "ch": "c04",
+   "label": "Live model panes",
+   "shot": "app-launch-panes",
+   "vo": "Press New terminal to launch a model. Each one runs in a live model pane, a real terminal. Here are Claude, Codex and a plain shell side by side."
+  },
+  {
+   "id": "b0405",
+   "ch": "c04",
+   "label": "Live model panes",
+   "shot": "app-gemini-signin",
+   "vo": "If a CLI isn't signed in yet, its pane shows that CLI's own sign-in prompt. Finish it once and you're set."
+  },
+  {
+   "id": "b0406",
+   "ch": "c04",
+   "label": "Add a model",
+   "shot": "app-add-model",
+   "vo": "To add a model that isn't listed, choose Add model. Give it a name, the command that starts it, and an accent color. It now launches like any built-in agent. Advanced users can edit the same entries in models dot json."
+  },
+  {
+   "id": "b0501",
+   "ch": "c05",
+   "label": "Agents Window",
+   "shot": "agents-overview",
+   "vo": "This is the Agents Window, the cockpit. Projects and threads on the left, model panes in the middle, output and terminal on the right, and usage quotas under the sidebar."
+  },
+  {
+   "id": "b0502",
+   "ch": "c05",
+   "label": "01 Open a thread",
+   "shot": "agents-new-thread",
+   "vo": "Step one: open a thread. Pick the project, then type what you want in the composer."
+  },
+  {
+   "id": "b0503",
+   "ch": "c05",
+   "label": "02 Launch agents",
+   "shot": "agents-send",
+   "vo": "Step two: launch agents. Choose the model, the reasoning effort and the access mode, then send. Here, Codex is asked to fix the failing test and show humidity on the page."
+  },
+  {
+   "id": "b0504",
+   "ch": "c05",
+   "label": "Watch every step live",
+   "shot": "agents-live",
+   "vo": "Watch every step live. A Working-for timer runs, and the status line shows what the model is thinking and which command it's running."
+  },
+  {
+   "id": "b0505",
+   "ch": "c05",
+   "label": "Keep asking while it works",
+   "shot": "agents-queue",
+   "vo": "Keep asking while it works. Type a follow-up during the reply, and it waits in a Queued bubble. It goes out when the reply finishes, or press Send now to send it straight away."
+  },
+  {
+   "id": "b0506",
+   "ch": "c05",
+   "label": "Watch every step live",
+   "shot": "agents-worked",
+   "vo": "When it's done, the steps fold into Worked for, with the time it took. Click it to unfold every command."
+  },
+  {
+   "id": "b0507",
+   "ch": "c05",
+   "label": "A diff for every reply",
+   "shot": "agents-diff",
+   "vo": "A diff for every reply. Each reply that edits code ends with a changed-files card. Open diff shows the turn beside the chat, unified or split, and the turn picker steps back through earlier replies."
+  },
+  {
+   "id": "b0508",
+   "ch": "c05",
+   "label": "Images inline in your message",
+   "shot": "agents-paste-image",
+   "vo": "Images inline in your message. Paste a screenshot while you type, and it drops in as a chip right at the cursor. Keep writing after it, and the model reads it in that same spot."
+  },
+  {
+   "id": "b0509",
+   "ch": "c05",
+   "label": "Save or copy any image",
+   "shot": "agents-image-menu",
+   "vo": "Save or copy any image. Right-click an image in a chat and choose Save image or Copy image."
+  },
+  {
+   "id": "b0510",
+   "ch": "c05",
+   "label": "Multi-agent grid",
+   "shot": "agents-grid",
+   "vo": "The multi-agent grid runs several agents at once, each in its own session. Split a pane to add another next to it, maximize one to focus, or close it when you're done."
+  },
+  {
+   "id": "b0511",
+   "ch": "c05",
+   "label": "Workspaces in the sidebar",
+   "shot": "agents-workspaces",
+   "vo": "New in 1.5.6: the sidebar groups each project into a workspace, with its terminals and chats under one header and one-click New terminal and New chat."
+  },
+  {
+   "id": "b0512",
+   "ch": "c05",
+   "label": "04 Switch to the editor",
+   "shot": "agents-to-editor",
+   "vo": "Step four, switch to the editor, is one click on IDE. We'll cover the Editor Window in chapter seven. Step three, Refine and ship, is chapter eight."
+  },
+  {
+   "id": "b0601",
+   "ch": "c06",
+   "label": "Every session in one place",
+   "shot": "sessions-view",
+   "vo": "Every session in one place. Search threads opens Sessions, which lists GenNal chats, terminals, and agent sessions from other apps, split into Chat, Terminal and Apps."
+  },
+  {
+   "id": "b0602",
+   "ch": "c06",
+   "label": "Every session in one place",
+   "shot": "sessions-filter",
+   "vo": "Filter by agent or by this project, or just search."
+  },
+  {
+   "id": "b0603",
+   "ch": "c06",
+   "label": "Continue any session",
+   "shot": "sessions-continue",
+   "vo": "Continue any session. This one was started in a plain terminal. Press Continue and it opens as a GenNal chat on the same Claude session, so the model remembers everything."
+  },
+  {
+   "id": "b0604",
+   "ch": "c06",
+   "label": "Pick up where you left off",
+   "shot": "sessions-restart",
+   "vo": "Pick up where you left off. Quit GenNal in the middle of a reply and open it again. Your tabs come back, unsent drafts included, and the cut-off reply offers Continue."
+  },
+  {
+   "id": "b0701",
+   "ch": "c07",
+   "label": "Editor Window",
+   "shot": "editor-overview",
+   "vo": "This is the Editor Window: agents on one side, code on the other. Explorer, search and source control on the left, tabs in the middle, and the agent chat dock on the right."
+  },
+  {
+   "id": "b0702",
+   "ch": "c07",
+   "label": "Agent chat dock",
+   "shot": "editor-dock",
+   "vo": "Ask the agent chat dock about the file you have open. It keeps its history, shows usage, and lets you switch models."
+  },
+  {
+   "id": "b0703",
+   "ch": "c07",
+   "label": "Command palette",
+   "shot": "editor-palette",
+   "vo": "Command palette: press Command K, or Control K on Windows and Linux, to find files and sessions, launch models, switch layouts and open any panel."
+  },
+  {
+   "id": "b0704",
+   "ch": "c07",
+   "label": "Search & replace",
+   "shot": "editor-search",
+   "vo": "Search and replace across the whole project. Match case, whole word and regular expressions, plus include and exclude filters. Type the replacement and choose Replace all."
+  },
+  {
+   "id": "b0705",
+   "ch": "c07",
+   "label": "Terminal & Run panel",
+   "shot": "editor-terminal",
+   "vo": "Terminal and Run panel. Control backtick opens a live shell under the editor, and Run streams the open file's output."
+  },
+  {
+   "id": "b0706",
+   "ch": "c07",
+   "label": "Code & preview panel",
+   "shot": "editor-preview",
+   "vo": "Code and preview panel. Start the dev server, and Preview opens the localhost app inside GenNal."
+  },
+  {
+   "id": "b0707",
+   "ch": "c07",
+   "label": "Database client",
+   "shot": "editor-db",
+   "vo": "Database client. Connect SQLite, PostgreSQL or MySQL, browse tables, and run SQL. Anything that writes asks before it touches your data."
+  },
+  {
+   "id": "b0708",
+   "ch": "c07",
+   "label": "Extensions marketplace",
+   "shot": "editor-ext",
+   "vo": "Extensions marketplace. Every first-party extension is already inside the app, and installing one only decides whether it shows. Install Workspace Board, and it appears in the rail, ready to use."
+  },
+  {
+   "id": "b0709",
+   "ch": "c07",
+   "label": "Agents Window ↗",
+   "shot": "editor-back",
+   "vo": "The Agents Window pill takes you back. Your agents, terminals and dev servers kept running the whole time."
+  },
+  {
+   "id": "b0801",
+   "ch": "c08",
+   "label": "03 Refine & ship",
+   "shot": "ship-intro",
+   "vo": "Step three: refine and ship. There are three tools for it."
+  },
+  {
+   "id": "b0802",
+   "ch": "c08",
+   "label": "ai-prompt-generator",
+   "shot": "ship-prompt",
+   "vo": "ai-prompt-generator turns a rough idea into a good agent prompt. Type the idea and click the sparkle. You get a structured prompt with context, task, constraints and verification steps, ready to run or copy."
+  },
+  {
+   "id": "b0803",
+   "ch": "c08",
+   "label": "Commit message & push",
+   "shot": "ship-commit",
+   "vo": "Commit message and push. Open Environment, then Commit and push. Generate commit message drafts it from your diff with the model you pick. Review it, edit it if you like, then Commit and push."
+  },
+  {
+   "id": "b0804",
+   "ch": "c08",
+   "label": "Board, tasks & automations",
+   "shot": "ship-board",
+   "vo": "Board, tasks and automations. Add a card to the board and launch an agent session right from it."
+  },
+  {
+   "id": "b0805",
+   "ch": "c08",
+   "label": "Board, tasks & automations",
+   "shot": "ship-automation",
+   "vo": "Automations run an agent on a schedule. Pick a template, set the schedule and the prompt, and press Run now to try it. Tasks brings in your GitHub issues and pull requests."
+  },
+  {
+   "id": "b0901",
+   "ch": "c09",
+   "label": "Usage sidebar",
+   "shot": "usage-sidebar",
+   "vo": "Usage sidebar. Your provider quotas sit under the sidebar. Hover for detail, and click for the full overview."
+  },
+  {
+   "id": "b0902",
+   "ch": "c09",
+   "label": "Usage: cost, tokens and limits",
+   "shot": "usage-page",
+   "vo": "The Usage page shows cost and tokens from twenty-four hours to ninety days, broken down by model and by day, and each plan limit with its reset time."
+  },
+  {
+   "id": "b0903",
+   "ch": "c09",
+   "label": "How does usage tracking work?",
+   "shot": "usage-page",
+   "vo": "How does it work? GenNal reads your local Claude Code and Codex files. Gemini and Cursor show activity and sign-in status. Nothing leaves your computer."
+  },
+  {
+   "id": "b1001",
+   "ch": "c10",
+   "label": "Display & themes",
+   "shot": "theme-scheme",
+   "vo": "Display and themes. Choose System, Light or Dark."
+  },
+  {
+   "id": "b1002",
+   "ch": "c10",
+   "label": "Theme picker",
+   "shot": "theme-cycle",
+   "vo": "Then pick a theme: GenNal, T3 Code, T3 Chat, Grove, Ocean, Ember or Iris, each with a light and a dark look. More themes holds the rest."
+  },
+  {
+   "id": "b1003",
+   "ch": "c10",
+   "label": "Display & themes",
+   "shot": "theme-display",
+   "vo": "Tune contrast and glass, create or import your own theme, and scale the whole interface under Display."
+  },
+  {
+   "id": "b1101",
+   "ch": "c11",
+   "label": "Your computer, in your pocket",
+   "shot": "remote-dialog",
+   "vo": "GenNal Remote: your computer, in your pocket. In the account menu, choose Connect a phone. Pick Anywhere and sign in with Google, or Same Wi-Fi and scan the code."
+  },
+  {
+   "id": "b1102",
+   "ch": "c11",
+   "label": "GenNal Remote",
+   "shot": "remote-phone",
+   "slot": true,
+   "vo": "On the phone, open GenNal Remote and pick your computer. Every project and session is there. Continue a thread, and the reply streams live, step by step."
+  },
+  {
+   "id": "b1103",
+   "ch": "c11",
+   "label": "Your phone, now with your screen",
+   "shot": "remote-screen",
+   "slot": true,
+   "vo": "Your phone, now with your screen. Open Screen to watch your computer live. On a Mac, allow GenNal under Screen Recording first."
+  },
+  {
+   "id": "b1104",
+   "ch": "c11",
+   "label": "GenNal Remote",
+   "shot": "remote-pause",
+   "vo": "Only your Google account can reach your computer, and you can pause or sign out in GenNal at any time."
+  },
+  {
+   "id": "b1201",
+   "ch": "c12",
+   "label": "Do I need API keys?",
+   "shot": "faq-card",
+   "vo": "A quick recap. API keys? None. GenNal runs the CLIs you've already signed in to."
+  },
+  {
+   "id": "b1202",
+   "ch": "c12",
+   "label": "Agents Window vs Editor Window",
+   "shot": "faq-card",
+   "vo": "Agents Window or Editor Window? Two views of one app. Switching never restarts anything."
+  },
+  {
+   "id": "b1203",
+   "ch": "c12",
+   "label": "How do extensions work?",
+   "shot": "faq-card",
+   "vo": "Extensions are first-party and offline. Installing one just decides whether it shows."
+  },
+  {
+   "id": "b1204",
+   "ch": "c12",
+   "label": "Search & replace",
+   "shot": "faq-card",
+   "vo": "Search and replace works across the whole project, with regex and file filters."
+  },
+  {
+   "id": "b1205",
+   "ch": "c12",
+   "label": "ai-prompt-generator",
+   "shot": "faq-card",
+   "vo": "The prompt generator turns a rough idea into a structured prompt, from the sparkle or Command K."
+  },
+  {
+   "id": "b1206",
+   "ch": "c12",
+   "label": "Commit message & push",
+   "shot": "faq-card",
+   "vo": "Commit and push: generate the message from your diff, then Commit and push from Environment."
+  },
+  {
+   "id": "b1207",
+   "ch": "c12",
+   "label": "How does usage tracking work?",
+   "shot": "faq-card",
+   "vo": "Usage is read from local CLI files."
+  },
+  {
+   "id": "b1208",
+   "ch": "c12",
+   "label": "Does GenNal upload my code?",
+   "shot": "faq-card",
+   "vo": "Your code never goes to a GenNal server."
+  },
+  {
+   "id": "b1209",
+   "ch": "c12",
+   "label": "Can I add a model?",
+   "shot": "faq-card",
+   "vo": "Any CLI can be a model, with Add model or models dot json."
+  },
+  {
+   "id": "b1210",
+   "ch": "c12",
+   "label": "Which platforms?",
+   "shot": "faq-card",
+   "vo": "And it runs on Windows, macOS and Linux, with GenNal Remote on your phone."
+  },
+  {
+   "id": "b1211",
+   "ch": "c12",
+   "label": "Download at gen-nal.onrender.com",
+   "shot": "end-card",
+   "vo": "Download GenNal at gen-nal dot onrender dot com. Thanks for watching."
+  }
+ ]
+}

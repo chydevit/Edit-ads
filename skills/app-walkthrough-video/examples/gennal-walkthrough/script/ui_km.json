@@ -1,0 +1,121 @@
+{
+ "chapters": {
+  "Intro": "សេចក្តីផ្តើម",
+  "The website tour": "ដើរមើលគេហទំព័រ",
+  "Download & install": "ទាញយក និងដំឡើង",
+  "First launch & connecting models": "បើកលើកដំបូង និងភ្ជាប់ម៉ូដែល",
+  "Agents Window": "ផ្ទាំង Agents",
+  "Sessions": "Sessions",
+  "Editor Window": "ផ្ទាំង Editor",
+  "Ship your work": "បញ្ចេញការងាររបស់អ្នក",
+  "Usage & limits": "ការប្រើប្រាស់ និង limit",
+  "Appearance": "រូបរាង",
+  "GenNal Remote": "GenNal Remote",
+  "FAQ recap & outro": "សង្ខេប FAQ និងបញ្ចប់"
+ },
+ "labels": {
+  "Hero": "Hero",
+  "Download": "ទាញយក",
+  "Devices": "ឧបករណ៍",
+  "What's new": "អ្វីថ្មី",
+  "Agents Window · Editor Window": "ផ្ទាំង Agents · ផ្ទាំង Editor",
+  "Threads, terminals, and code in one flow": "Threads, terminals និងកូដ ក្នុងលំហូរតែមួយ",
+  "Features": "មុខងារ",
+  "Supported models": "ម៉ូដែលដែលគាំទ្រ",
+  "System requirements · FAQ": "តម្រូវការប្រព័ន្ធ · FAQ",
+  "Mobile menu": "Menu លើទូរស័ព្ទ",
+  "All devices — pick your download": "ឧបករណ៍ទាំងអស់ — ជ្រើសការទាញយក",
+  "Install on macOS": "ដំឡើងលើ macOS",
+  "Install on Windows": "ដំឡើងលើ Windows",
+  "System requirements": "តម្រូវការប្រព័ន្ធ",
+  "Works with the CLI tools already on your machine": "ដំណើរការជាមួយ CLI tools ដែលមានរួចលើម៉ាស៊ីនអ្នក",
+  "Does GenNal upload my code?": "តើ GenNal upload កូដរបស់ខ្ញុំទេ?",
+  "Thread workspace": "Thread workspace",
+  "Live model panes": "Model panes ផ្ទាល់",
+  "Add a model": "បន្ថែមម៉ូដែល",
+  "Agents Window": "ផ្ទាំង Agents",
+  "01 Open a thread": "01 បើក thread",
+  "02 Launch agents": "02 បើក agents",
+  "Watch every step live": "មើលជំហាននីមួយៗផ្ទាល់",
+  "Keep asking while it works": "បន្តសួរ ខណៈវាកំពុងធ្វើការ",
+  "A diff for every reply": "កាត diff សម្រាប់ចម្លើយនីមួយៗ",
+  "Images inline in your message": "រូបភាពនៅក្នុងសាររបស់អ្នក",
+  "Save or copy any image": "រក្សាទុក ឬចម្លងរូបភាពណាមួយ",
+  "Multi-agent grid": "Grid សម្រាប់ agents ច្រើន",
+  "Workspaces in the sidebar": "Workspaces នៅក្នុង sidebar",
+  "04 Switch to the editor": "04 ប្តូរទៅ editor",
+  "Every session in one place": "Session ទាំងអស់នៅកន្លែងតែមួយ",
+  "Continue any session": "បន្ត session ណាមួយ",
+  "Pick up where you left off": "បន្តពីកន្លែងដែលបានឈប់",
+  "Editor Window": "ផ្ទាំង Editor",
+  "Agent chat dock": "Dock សម្រាប់ Agent chat",
+  "Command palette": "Command palette",
+  "Search & replace": "Search និង replace",
+  "Terminal & Run panel": "Panel Terminal និង Run",
+  "Code & preview panel": "Panel កូដ និង preview",
+  "Database client": "Database client",
+  "Extensions marketplace": "ទីផ្សារ Extensions",
+  "Agents Window ↗": "ផ្ទាំង Agents ↗",
+  "03 Refine & ship": "03 Refine & ship",
+  "ai-prompt-generator": "ai-prompt-generator",
+  "Commit message & push": "Commit message & push",
+  "Board, tasks & automations": "Board, tasks និង automations",
+  "Usage sidebar": "Sidebar ការប្រើប្រាស់",
+  "Usage: cost, tokens and limits": "Usage៖ ថ្លៃ token និង limit",
+  "How does usage tracking work?": "តើការតាមដានការប្រើប្រាស់ដំណើរការយ៉ាងដូចម្តេច?",
+  "Display & themes": "Display & themes",
+  "Theme picker": "ជ្រើស theme",
+  "Your computer, in your pocket": "កុំព្យូទ័ររបស់អ្នក នៅក្នុងហោប៉ៅ",
+  "GenNal Remote": "GenNal Remote",
+  "Your phone, now with your screen": "ទូរស័ព្ទរបស់អ្នក ឥឡូវមានអេក្រង់របស់អ្នក",
+  "GenNal": "GenNal",
+  "Gen = Generation · Nal = Terminal": "Gen = Generation · Nal = Terminal",
+  "gen-nal.onrender.com": "gen-nal.onrender.com",
+  "EN · ខ្មែរ · 中文": "EN · ខ្មែរ · 中文"
+ },
+ "faq": {
+  "b1201": {
+   "q": "តើខ្ញុំត្រូវការ API keys ដើម្បីប្រើ GenNal ទេ?",
+   "a": "ទេ។ GenNal ដំណើរការ CLIs ដែលអ្នកបាន sign in រួចហើយ។"
+  },
+  "b1202": {
+   "q": "ផ្ទាំង Agents និងផ្ទាំង Editor ខុសគ្នាយ៉ាងណា?",
+   "a": "ទិដ្ឋភាពពីរនៃកម្មវិធីតែមួយ។ ការប្តូរមិនដែល restart អ្វីទេ។"
+  },
+  "b1203": {
+   "q": "តើ extensions ដំណើរការយ៉ាងដូចម្តេច?",
+   "a": "ផ្ទាល់របស់ GenNal និង offline។ ការដំឡើងគ្រាន់តែសម្រេចថាវាបង្ហាញឬអត់។"
+  },
+  "b1204": {
+   "q": "តើខ្ញុំអាច search និង replace ទូទាំងគម្រោងបានទេ?",
+   "a": "បាន — match case, whole word, regex, include និង exclude។"
+  },
+  "b1205": {
+   "q": "តើ prompt generator ដំណើរការយ៉ាងដូចម្តេច?",
+   "a": "គំនិតរដុបចូល prompt មានរចនាសម្ព័ន្ធចេញ — ពី sparkle ឬ ⌘K។"
+  },
+  "b1206": {
+   "q": "តើ GenNal អាចសរសេរ commit message និង push ឱ្យខ្ញុំបានទេ?",
+   "a": "បាន។ Generate commit message រួច Commit & push ក្នុង Environment។"
+  },
+  "b1207": {
+   "q": "តើការតាមដានការប្រើប្រាស់ដំណើរការយ៉ាងដូចម្តេច?",
+   "a": "វាអានឯកសារ Claude Code និង Codex នៅលើម៉ាស៊ីនរបស់អ្នក។"
+  },
+  "b1208": {
+   "q": "តើ GenNal upload កូដរបស់ខ្ញុំទៅ server របស់វាទេ?",
+   "a": "ទេ។ Prompts ទៅតែ provider CLI ដែលអ្នកជ្រើសប៉ុណ្ណោះ។"
+  },
+  "b1209": {
+   "q": "តើខ្ញុំអាចបន្ថែមម៉ូដែលដែលមិនមានក្នុងបញ្ជីបានទេ?",
+   "a": "បាន — Add model ឬធាតុមួយក្នុង models.json។"
+  },
+  "b1210": {
+   "q": "តើវាគាំទ្រប្រព័ន្ធ និងឧបករណ៍អ្វីខ្លះ?",
+   "a": "Windows 10/11, macOS 11+, Linux 64-bit — និងទូរស័ព្ទរបស់អ្នកជាមួយ GenNal Remote។"
+  }
+ },
+ "chapterWord": "ជំពូក",
+ "endDownload": "ទាញយកនៅ",
+ "partWord": "ភាគ"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "product-promo-video",
+  "name": "app-walkthrough-video",
   "private": true,
   "version": "1.0.0",
   "scripts": {
@@ -8,12 +8,13 @@
   "dependencies": {
     "@remotion/cli": "4.0.535",
     "@remotion/fonts": "4.0.535",
-    "@remotion/player": "^4.0.535",
+    "@remotion/player": "4.0.535",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "remotion": "4.0.535",
     "@remotion/bundler": "4.0.535",
-    "@remotion/renderer": "4.0.535"
+    "@remotion/renderer": "4.0.535",
+    "playwright-core": "1.56.1"
   },
   "devDependencies": {
     "@types/react": "19.1.0",

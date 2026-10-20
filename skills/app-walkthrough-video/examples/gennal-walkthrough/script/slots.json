@@ -1,0 +1,6 @@
+{
+ "install-mac": {"title": "Install on macOS", "lines": ["Open GenNal-1.5.9-arm64.dmg from Downloads", "Drag GenNal onto Applications", "First run: right-click GenNal → Open → Open"]},
+ "install-win": {"title": "Install on Windows", "lines": ["Run GenNal-Setup-1.5.9.exe", "SmartScreen: More info → Run anyway", "Finish the installer and launch GenNal"]},
+ "remote-phone": {"title": "GenNal Remote on a phone", "lines": ["Open gennal-relay.onrender.com and sign in", "Pick the computer, open weather-app", "Continue a thread and watch the reply stream"]},
+ "remote-screen": {"title": "Watch your computer's screen", "lines": ["In GenNal Remote, open Screen", "The Mac shows ‘Sharing your screen with …’", "Mac: allow GenNal under Screen Recording first"]}
+}

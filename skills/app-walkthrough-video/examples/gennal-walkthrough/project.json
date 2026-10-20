@@ -1,0 +1,453 @@
+{
+ "name": "GenNal",
+ "slug": "GenNal-walkthrough",
+ "base_lang": "en",
+ "langs": [
+  "en",
+  "km"
+ ],
+ "subtitles": [
+  "en",
+  "km",
+  "zh"
+ ],
+ "brand": {
+  "name": "GenNal",
+  "logo": "logo.png",
+  "url": "gen-nal.onrender.com",
+  "tagline": "Gen = Generation · Nal = Terminal",
+  "accent": [
+   "#7c5cff",
+   "#22d3ee"
+  ]
+ },
+ "spoken_url": {
+  "en": "gen-nal dot onrender dot com"
+ },
+ "asr_hint": [
+  "GenNal",
+  "Claude Code",
+  "Codex",
+  "Gemini",
+  "Cursor",
+  "CLI"
+ ],
+ "redact": [
+  "Old.s MacBook",
+  "your-mac-user",
+  "your-github-handle"
+ ],
+ "redact_css": [
+  "img[alt=\"Pairing QR code\"]"
+ ],
+ "app": {
+  "kind": "electron",
+  "path": "/Applications/GenNal.app",
+  "cdp_port": 9433,
+  "inspect_port": 9434,
+  "window": [
+   1440,
+   810
+  ],
+  "home": "/Users/Shared/gndemo/home",
+  "profile": "/tmp/gndemo/profile",
+  "page_match": "app://",
+  "path_env": "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+  "on_connect": "await window.api.zoom.set(1)"
+ },
+ "site": {
+  "url": "https://gen-nal.onrender.com/",
+  "stops": [
+   [
+    "#download",
+    "Download",
+    8000
+   ],
+   [
+    "#remote",
+    "GenNal Remote",
+    8000
+   ],
+   [
+    "#devices",
+    "Devices",
+    7000
+   ],
+   [
+    "#whats-new",
+    "What's new",
+    8000
+   ],
+   [
+    "#windows",
+    "Agents Window · Editor Window",
+    9000
+   ],
+   [
+    "#experience",
+    "Threads, terminals, and code in one flow",
+    8000
+   ],
+   [
+    "#features",
+    "Features",
+    8000
+   ],
+   [
+    "#tour",
+    "Interface tour",
+    6000
+   ],
+   [
+    "#models",
+    "Supported models",
+    8000
+   ],
+   [
+    ".system-section",
+    "System requirements",
+    5000
+   ],
+   [
+    "#faq",
+    "FAQ",
+    8000
+   ]
+  ],
+  "lang_switch": [
+   [
+    "[data-lang-switch=\"km\"]",
+    "ខ្មែរ"
+   ],
+   [
+    "[data-lang-switch=\"zh\"]",
+    "中文"
+   ],
+   [
+    "[data-lang-switch=\"en\"]",
+    "EN"
+   ]
+  ],
+  "mobile_menu": "button[aria-label*=\"menu\" i], .menu-toggle, .nav-toggle"
+ },
+ "voice": {
+  "en": {
+   "design": "A calm, clear, warm adult male narrator with a neutral American accent, steady medium pace, studio quality",
+   "sample_text": "GenNal is one desktop app for the CLI agents you already have. Claude Code, Codex, Gemini and Cursor, with threads, terminals and code in one flow."
+  },
+  "km": {
+   "ref_wav": "voice/km_ref.wav",
+   "ref_text": "Write here, word for word, what you say in voice/km_ref.wav (8 to 20 seconds of your own clean Khmer speech)."
+  }
+ },
+ "music": {},
+ "edit": {
+  "site_shots": {
+   "site-tour:hero": [
+    "site-tour",
+    "Hero",
+    null
+   ],
+   "site-tour:download": [
+    "site-tour",
+    "Download",
+    "GenNal Remote"
+   ],
+   "site-tour:devices": [
+    "site-tour",
+    "Devices",
+    null
+   ],
+   "site-tour:whats-new": [
+    "site-tour",
+    "What's new",
+    null
+   ],
+   "site-tour:windows": [
+    "site-tour",
+    "Agents Window · Editor Window",
+    null
+   ],
+   "site-tour:experience": [
+    "site-tour",
+    "Threads, terminals, and code in one flow",
+    null
+   ],
+   "site-tour:features": [
+    "site-tour",
+    "Features",
+    "Interface tour"
+   ],
+   "site-tour:models": [
+    "site-tour",
+    "Supported models",
+    null
+   ],
+   "site-tour:faq": [
+    "site-tour",
+    "System requirements",
+    "FAQ"
+   ]
+  },
+  "whole_clips": [
+   "site-lang",
+   "site-mobile",
+   "site-download",
+   "site-requirements"
+  ],
+  "portrait_clips": [
+   "site-mobile"
+  ],
+  "continue": {
+   "sessions-restart": "sessions-restart-2"
+  },
+  "montage": [
+   [
+    "agents-grid",
+    0.5,
+    4.5
+   ],
+   [
+    "agents-diff",
+    3.0,
+    4.5
+   ],
+   [
+    "editor-overview",
+    2.0,
+    4.0
+   ],
+   [
+    "editor-db",
+    14.0,
+    4.0
+   ],
+   [
+    "theme-cycle",
+    1.0,
+    4.5
+   ]
+  ],
+  "vertical": [
+   {
+    "beat": "b0101",
+    "title": {
+     "en": "One app for all your CLI agents",
+     "km": "កម្មវិធីតែមួយ សម្រាប់ CLI agents ទាំងអស់"
+    },
+    "fallback_shot": "agents-grid"
+   },
+   {
+    "beat": "b0505",
+    "title": {
+     "en": "Keep asking while it works",
+     "km": "បន្តសួរ ខណៈវាកំពុងធ្វើការ"
+    }
+   },
+   {
+    "beat": "b0507",
+    "title": {
+     "en": "A diff for every reply",
+     "km": "កាត diff សម្រាប់ចម្លើយនីមួយៗ"
+    }
+   },
+   {
+    "beat": "b0508",
+    "title": {
+     "en": "Images inline in your message"
+    },
+    "skip": [
+     "km"
+    ]
+   },
+   {
+    "beat": "b0603",
+    "title": {
+     "en": "Continue any session",
+     "km": "បន្ត session ណាមួយ"
+    }
+   },
+   {
+    "beat": "b0803",
+    "title": {
+     "en": "Commit message & push",
+     "km": "Commit message & push"
+    }
+   },
+   {
+    "beat": "b1002",
+    "title": {
+     "en": "Seven themes, light & dark",
+     "km": "Theme ប្រាំពីរ ភ្លឺ និងងងឹត"
+    }
+   },
+   {
+    "beat": "b1211",
+    "title": {
+     "en": "gen-nal.onrender.com",
+     "km": "gen-nal.onrender.com"
+    },
+    "fallback_shot": "theme-cycle"
+   }
+  ]
+ },
+ "ad": {
+  "seconds": 120,
+  "langs": [
+   "en",
+   "km"
+  ],
+  "cta": {
+   "en": "Download now at",
+   "km": "ទាញយកនៅ"
+  }
+ },
+ "covers": {
+  "en": {
+   "thumb": {
+    "lines": [
+     "EVERY",
+     "FEATURE"
+    ],
+    "sub": "Start → finish · Claude · Codex · Gemini",
+    "badge": "v1.5.9",
+    "shot": "agents-grid",
+    "offset": 4
+   },
+   "vertical": {
+    "lines": [
+     "ONE APP FOR",
+     "ALL YOUR AGENTS"
+    ],
+    "sub": "Claude · Codex · Gemini\n{url}",
+    "shot": "agents-diff",
+    "offset": 6
+   },
+   "parts": [
+    [
+     "DOWNLOAD &",
+     "INSTALL",
+     "Website tour · Windows · macOS · Linux"
+    ],
+    [
+     "AGENTS",
+     "WINDOW",
+     "Claude · Codex · a diff for every reply"
+    ],
+    [
+     "SESSIONS &",
+     "EDITOR",
+     "Search · terminal · preview · database"
+    ],
+    [
+     "SHIP",
+     "YOUR WORK",
+     "Prompt generator · commit & push · themes"
+    ],
+    [
+     "GENNAL",
+     "REMOTE",
+     "Your computer in your pocket · FAQ"
+    ]
+   ]
+  },
+  "km": {
+   "thumb": {
+    "lines": [
+     "គ្រប់មុខងារ",
+     "ពីដើមដល់ចប់"
+    ],
+    "sub": "Claude · Codex · Gemini · ភាសាខ្មែរ",
+    "badge": "v1.5.9",
+    "shot": "agents-grid",
+    "offset": 4
+   },
+   "vertical": {
+    "lines": [
+     "កម្មវិធីតែមួយ",
+     "សម្រាប់ AI agents"
+    ],
+    "sub": "Claude · Codex · Gemini\n{url}",
+    "shot": "agents-diff",
+    "offset": 6
+   },
+   "parts": [
+    [
+     "ទាញយក",
+     "និងដំឡើង",
+     "ដើរមើលគេហទំព័រ · Windows · macOS · Linux"
+    ],
+    [
+     "ផ្ទាំង",
+     "Agents",
+     "Claude · Codex · កាត diff គ្រប់ចម្លើយ"
+    ],
+    [
+     "Sessions",
+     "និង Editor",
+     "Search · terminal · preview · database"
+    ],
+    [
+     "បញ្ចេញ",
+     "ការងារ",
+     "Prompt generator · commit & push · themes"
+    ],
+    [
+     "GenNal",
+     "Remote",
+     "កុំព្យូទ័រក្នុងហោប៉ៅ · FAQ"
+    ]
+   ]
+  }
+ },
+ "publish": {
+  "en": {
+   "title": "GenNal: every feature, start to finish (Claude Code, Codex & Gemini in one app)",
+   "description": "GenNal is one desktop app for the CLI agents you already have: Claude Code, Codex, Gemini and Cursor, with threads, terminals and code in one flow.\n\n✅ No API keys\n✅ Your code stays on your machine\n✅ Windows · macOS · Linux\n\n⬇️ Free download: https://gen-nal.onrender.com/",
+   "hashtags": [
+    "#GenNal",
+    "#ClaudeCode",
+    "#Codex",
+    "#GeminiCLI",
+    "#AIcoding",
+    "#DevTools"
+   ],
+   "tags": [
+    "GenNal",
+    "Claude Code",
+    "Codex",
+    "Gemini CLI",
+    "Cursor",
+    "AI coding",
+    "CLI agents"
+   ],
+   "facebook": "🚀 GenNal: one desktop app for all your CLI agents.\n\n💬 Keep asking while the agent works\n🧩 A diff for every reply\n🔁 Continue any session\n\n⬇️ Free download: https://{url}/\n{tags}",
+   "short": "One app for Claude Code, Codex & Gemini 🤯 No API keys 🔑 Free 👉 {url}\n{tags} #fyp",
+   "x": "GenNal: one desktop app for the CLI agents you already have. Free: https://{url}/",
+   "part_caption": "📺 GenNal Part 1/5: next part on my page 👉\n⬇️ https://{url}/\n{tags}"
+  },
+  "km": {
+   "title": "GenNal ពេញលេញ៖ ប្រើគ្រប់មុខងារ ចាប់ពីដំឡើងរហូតដល់ Commit & Push",
+   "description": "GenNal គឺជាកម្មវិធី desktop តែមួយ សម្រាប់ CLI agents ដែលអ្នកមានរួចហើយ។\n\n✅ មិនត្រូវការ API key\n✅ កូដនៅលើម៉ាស៊ីនរបស់អ្នក\n✅ Windows · macOS · Linux\n\n⬇️ ទាញយកឥតគិតថ្លៃ៖ https://gen-nal.onrender.com/",
+   "chapters_word": "ជំពូក",
+   "hashtags": [
+    "#GenNal",
+    "#ClaudeCode",
+    "#Codex",
+    "#AIcoding",
+    "#ខ្មែរ",
+    "#Cambodia"
+   ],
+   "tags": [
+    "GenNal",
+    "Claude Code",
+    "Codex",
+    "ខ្មែរ",
+    "Khmer tutorial"
+   ],
+   "facebook": "🚀 GenNal: កម្មវិធីតែមួយ សម្រាប់ CLI agents ទាំងអស់របស់អ្នក!\n\n⬇️ ទាញយកឥតគិតថ្លៃ៖ https://{url}/\n{tags}",
+   "short": "កម្មវិធីតែមួយ សម្រាប់ Claude Code, Codex និង Gemini 🤯 👉 {url}\n{tags} #fyp",
+   "part_caption": "📺 GenNal ភាគ 1/5: មើលភាគបន្ទាប់នៅលើ page របស់ខ្ញុំ 👉\n⬇️ https://{url}/\n{tags}"
+  }
+ }
+}
